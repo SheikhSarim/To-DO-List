@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.gradient {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    opacity: 0.8;
+}
+
+.gradient-1 {
+    background-color: rgb(255, 77, 210);
+    top: 10%;
+    left: 30%;
+    animation: moveGradient1 5s infinite alternate;
+}
+
+.gradient-2 {
+    background-color: rgb(251, 253, 144);
+    top: 60%;
+    left: 50%;
+    animation: moveGradient2 6s infinite alternate;
+}
+
+.gradient-3 {
+    background-color: hsla(295, 81%, 65%, 1);
+    top: 40%;
+    left: 20%;
+    animation: moveGradient3 7s infinite alternate;
+}
+
+.gradient-4 {
+    background-color: hsla(256, 88%, 68%, 1);
+    top: 20%;
+    left: 80%;
+    animation: moveGradient4 8s infinite alternate;
+}
+
+.gradient-5 {
+    background-color: hsla(330, 62%, 68%, 1);
+    top: 80%;
+    left: 70%;
+    animation: moveGradient5 9s infinite alternate;
+}
+
+.gradient-6 {
+    background-color: hsla(214, 80%, 60%, 1);
+    top: 30%;
+    left: 10%;
+    animation: moveGradient6 10s infinite alternate;
+}
+
+.gradient-7 {
+    background-color: hsla(138, 90%, 78%, 1);
+    top: 90%;
+    left: 90%;
+    animation: moveGradient7 11s infinite alternate;
+}
+
+/* Existing styles for .container and .gradient */
+/* ... */
+
+.gradient-8 {
+    background-color: hsla(200, 80%, 50%, 1);
+    top: 60%;
+    left: 20%;
+    animation: moveGradient8 5s infinite alternate;
+}
+
+.gradient-9 {
+    background-color: rgb(110, 247, 227);
+    top: 30%;
+    left: 70%;
+    animation: moveGradient9 6s infinite alternate;
+}
+
+.gradient-10 {
+    background-color: hsla(300, 70%, 60%, 1);
+    top: 80%;
+    left: 50%;
+    animation: moveGradient10 7s infinite alternate;
+}
+
+.gradient-11 {
+    background-color: hsla(30, 90%, 50%, 1);
+    top: 20%;
+    left: 90%;
+    animation: moveGradient11 8s infinite alternate;
+}
+
+.gradient-12 {
+    background-color: hsla(80, 70%, 40%, 1);
+    top: 70%;
+    left: 10%;
+    animation: moveGradient12 9s infinite alternate;
+}
+
+.gradient-13 {
+    background-color: hsla(150, 80%, 60%, 1);
+    top: 40%;
+    left: 80%;
+    animation: moveGradient13 10s infinite alternate;
+}
+
+.gradient-14 {
+    background-color: hsla(230, 60%, 70%, 1);
+    top: 90%;
+    left: 30%;
+    animation: moveGradient14 11s infinite alternate;
+}
+
+.gradient-15 {
+    background-color: hsla(280, 70%, 50%, 1);
+    top: 10%;
+    left: 60%;
+    animation: moveGradient15 12s infinite alternate;
+}
+
+.gradient-16 {
+    background-color: hsla(320, 80%, 40%, 1);
+    top: 50%;
+    left: 40%;
+    animation: moveGradient16 13s infinite alternate;
+}
+
+.gradient-17 {
+    background-color: hsla(40, 90%, 60%, 1);
+    top: 75%;
+    left: 85%;
+    animation: moveGradient17 14s infinite alternate;
+}
+
+
+
+/* Define styles and animations for gradient-3 to gradient-7 similarly */
+
+@keyframes moveGradient1 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(50px, -50px);
+    }
+}
+
+@keyframes moveGradient2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-70px, 30px);
+    }
+}
+
+@keyframes moveGradient3 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(80px, -20px);
+    }
+}
+
+@keyframes moveGradient4 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-60px, 50px);
+    }
+}
+
+@keyframes moveGradient5 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(100px, 10px);
+    }
+}
+
+@keyframes moveGradient6 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-90px, -80px);
+    }
+}
+
+@keyframes moveGradient7 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-30px, -40px);
+    }
+}
+
+@keyframes moveGradient8 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-50px, 50px);
+    }
+}
+
+@keyframes moveGradient9 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-70px, 110px);
+    }
+}
+
+@keyframes moveGradient10 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-80px, 20px);
+    }
+}
+
+@keyframes moveGradient11 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(60px, -50px);
+    }
+}
+
+@keyframes moveGradient12 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-90px, 80px);
+    }
+}
+
+@keyframes moveGradient13 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(40px, -70px);
+    }
+}
+
+@keyframes moveGradient14 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100px, 10px);
+    }
+}
+
+@keyframes moveGradient15 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(80px, 90px);
+    }
+}
+
+@keyframes moveGradient16 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-30px, -60px);
+    }
+}
+
+@keyframes moveGradient17 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(50px, 40px);
+    }
+}
+
+
+/* Define more keyframes for moveGradient3 to moveGradient7 with different movements */
+
+
+
+@font-face {
+    font-family: myfont;
+    src: url('/assets/Cream Cake.otf') format('opentype');
+}
+
+
+
+
+
+
+body {
+    background-color: #240f99;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-image:
+        radial-gradient(at 42% 23%, hsla(186, 65%, 79%, 1) 0px, transparent 50%),
+        radial-gradient(at 38% 90%, hsla(355, 97%, 78%, 1) 0px, transparent 50%),
+        radial-gradient(at 82% 38%, hsla(295, 81%, 65%, 1) 0px, transparent 50%),
+        radial-gradient(at 24% 81%, hsla(256, 88%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 49% 42%, hsla(330, 62%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 48% 40%, hsla(214, 80%, 60%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 31%, hsla(138, 90%, 78%, 1) 0px, transparent 50%);
+
+
+    overflow: hidden !important;
+
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+
+    overflow: hidden !important;
+
+}
+
+.container {
+    max-width: 800px;
+    background-color: #ffffff34;
+    /* background: transparent; */
+    border-radius: 10px;
+    position: relative;
+    min-height: 60vh;
+    padding-bottom: 60px;
+
+}
+
+.container .Main-heading {
+    font-family: myfont;
+    font-size: 5rem;
+    color: #240f99;
+}
+
+
+
+#Show {
+    margin-top: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.TasksList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Adjust the gap between items as needed */
+}
+
+.TasksList .taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TasksList .taskItem input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.TasksList #Input-field {
+    width: 100%;
+    margin: 0% 10px;
+    background: none;
+
+    border: none;
+    font-size: larger;
+}
+
+.Buttons-box {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-left: auto;
+}
+
+#Check {
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    background: none;
+    /* background-color: #fff; */
+    color: inherit;
+    text-align: center;
+    padding: 10px;
+}
+
+.custom-input input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    border-radius: 5px;
+}
+
+.custom-input {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px rgb(183, 183, 183);
+}
+
+.custom-input-checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.custom-input input:checked~.custom-input-checkmark {
+    box-shadow: 3px 3px 0px rgb(183, 183, 183);
+    transition: all 0.2s;
+    opacity: 1;
+    background-image: linear-gradient(45deg, rgb(100, 61, 219) 0%, rgb(217, 21, 239) 100%);
+}
+
+.custom-input input~.custom-input-checkmark {
+    transition: all 0.2s;
+    opacity: 1;
+    box-shadow: 1px 1px 0px rgb(183, 183, 183);
+}
+
+.custom-input-checkmark:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.custom-input input:checked~.custom-input-checkmark:after {
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.custom-input .custom-input-checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.DDate {
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 300px;
+    height: 10px;
+}
+
+
+#datePickerButton {
+    background: url('./Images/calendar_icon.png') center center no-repeat;
+
+    background-size: contain;
+    width: 30px;
+
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+@media only screen and (max-width: 390px) and (max-height: 844px),
+       only screen and (max-width: 393px) and (max-height: 851px) {
+    #main {
+        padding: 10px; /* Add padding to #main */
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+
+    .container {
+        max-width: 100%; /* Use full width of the screen */
+        margin: auto; /* Center the container horizontally */
+    }
+
+    .TasksList {
+        flex-wrap: wrap;
+        gap: 10px; /* Add some gap between tasks */
+    }
+
+    .Buttons-box {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+
+    .DDate {
+        width: 50px;
+        margin-top: 0.5rem;
+    }
+
+    .custom-input {
+        font-size: 16px;
+    }
+
+    .Buttons-box button {
+        font-size: 14px;
+    }
+}
+
